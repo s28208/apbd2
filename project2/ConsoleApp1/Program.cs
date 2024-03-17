@@ -9,7 +9,7 @@ static double GetAverageNew(int[] numbers) {
     }
     return suma/numbers.Length;
 }
-int[] numbers = {1, 4, 3, 4};
-double averageNew = GetAverageNew(numbers);
-Console.WriteLine(averageNew);
+int[] number = {1, 4, 3, 4};
+double average = GetAverageNew(number);
+Console.WriteLine(average);
 
