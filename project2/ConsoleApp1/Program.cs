@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
+//rebase with feature max
 static int GetMax(int[] numbers)
 {
     int max = numbers[0];
