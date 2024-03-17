@@ -1,18 +1,14 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-//rebase with feature max
-static int GetMax(int[] numbers)
-{
-    int max = numbers[0];
+
+static double GetAverage(int[] numbers) {
+    double suma2 = 0;
     foreach (var number in numbers)
     {
-        if (max < number)
-        {
-            max = number;
-        }
+        suma2 += number;
     }
-    return max;
+    return suma2/numbers.Length;
 }
-int[] numbers = {1, 4, 3, 1};
-double max = GetMax(numbers);
-Console.WriteLine(max);
+int[] numbers = {1, 2, 3, 4};
+double average = GetAverage(numbers);
+Console.WriteLine(average);
